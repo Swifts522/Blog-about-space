@@ -1,0 +1,120 @@
+body
+		{
+			background: #e9f3f3;
+		}
+		.formnews 
+		{ 
+			width: 70%;
+			position: relative;
+			padding-top: 10%;
+			top: 40%;
+			right: 0;
+			bottom: 0;
+			left: -0;
+			margin: auto;
+			text-align:center;
+			background-color: rgba(255, 255, 255, 0.3);
+			box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+		}
+		.arrow-left {
+			background: url(../images/arrowleft.png) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: contain; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 120px; /* Ширина рисунка */
+			height: 80px; /*  Высота рисунка */
+			position: absolute;
+			top: 78%;
+			left: 90%;
+		}
+		.arrow-left:hover {
+			background: url(../images/arrowlefthover.png) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: contain; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 120px; /* Ширина рисунка */
+			height: 80px; /*  Высота рисунка */
+			cursor: pointer;
+		}
+		.arrow-right {
+			background: url(../images/arrowright.png) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: contain; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 120px; /* Ширина рисунка */
+			height: 80px; /*  Высота рисунка */
+			position: absolute;
+			top: 78%;
+			left: 5%;
+		}
+		.arrow-right:hover {
+			background: url(../images/arrowrighthover.png) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: contain; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 120px; /* Ширина рисунка */
+			height: 80px; /*  Высота рисунка */
+			cursor: pointer;
+		}
+		form 
+		{
+			position: absolute;
+			top: 10%;
+			left: 5%;
+			margin: auto;
+		}
+		.newsimg
+		{
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			margin: auto;
+			background-color: rgba(255, 255, 255, 0.5);
+			width: 20%;
+			height: 100%;
+		}
+		.newsimg2 {
+			background: url(../images/newsimg2.jpg) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: cover; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 30%; /* Ширина рисунка */
+			height: 100%; /*  Высота рисунка */
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		.newsimg3 {
+			background: url(../images/newsimg3.jpg) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: cover; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 30%; /* Ширина рисунка */
+			height: 100%; /*  Высота рисунка */
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		.newsimg4 {
+			background: url(../images/newsimg4.jpg) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: cover; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 30%; /* Ширина рисунка */
+			height: 100%; /*  Высота рисунка */
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		.newsfonimg1
+		{
+			background: url(../images/newrocket.png) no-repeat; /* Путь к файлу с исходным рисунком  */
+			background-size: contain; /* Масштабируем фон */
+			display: block; /*  Рисунок как блочный элемент */
+			width: 30%; /* Ширина рисунка */
+			height: 100%; /*  Высота рисунка */
+			position: absolute;
+			top: 0%;
+			right: -10%;		
+		}
+		form 
+		{
+			position: absolute;
+			top: 40%;
+			left: 35%;
+			margin: auto;
+			font: 15pt Impact; 
+		}
